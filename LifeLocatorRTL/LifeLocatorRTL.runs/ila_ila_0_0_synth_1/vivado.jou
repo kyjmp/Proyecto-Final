@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Fri Jul 31 02:07:45 2026
+# Process ID         : 736
+# Current directory  : C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.runs/ila_ila_0_0_synth_1
+# Command line       : vivado.exe -log ila_ila_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ila_ila_0_0.tcl
+# Log file           : C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.runs/ila_ila_0_0_synth_1/ila_ila_0_0.vds
+# Journal file       : C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.runs/ila_ila_0_0_synth_1\vivado.jou
+# Running On         : DESKTOP-GQT7BIQ
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 19045
+# Processor Detail   : Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz
+# CPU Frequency      : 3392 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 17128 MB
+# Swap memory        : 10311 MB
+# Total Virtual      : 27439 MB
+# Available Virtual  : 4859 MB
+#-----------------------------------------------------------
+source ila_ila_0_0.tcl -notrace

@@ -1,0 +1,34 @@
+Time resolution is 1 ps
+Enviando 200 muestras de un tono de 0.30 Hz (amplitud 0.50) a Fs=20.0 Hz...
+[t=59965000] bin_idx=0 (f=0.1 Hz)  mag2 = 4325  (~0.065994 en punto flotante)
+[t=60005000] bin_idx=1 (f=0.2 Hz)  mag2 = 203  (~0.003098 en punto flotante)
+[t=60045000] bin_idx=2 (f=0.3 Hz)  mag2 = 164482422  (~2509.802582 en punto flotante)
+[t=60085000] bin_idx=3 (f=0.4 Hz)  mag2 = 1696  (~0.025879 en punto flotante)
+Todas las muestras enviadas, esperando resultados del bloque...
+[t=60125000] bin_idx=4 (f=0.5 Hz)  mag2 = 12  (~0.000183 en punto flotante)
+[t=60135000] === BLOQUE COMPLETO (N=200 muestras) ===
+---------------------------------------------------------
+Resumen final (deberia verse un pico en el bin de 0.3 Hz):
+  bin 0 (0.1 Hz) -> 0.065994
+  bin 1 (0.2 Hz) -> 0.003098
+  bin 2 (0.3 Hz) -> 2509.802582
+  bin 3 (0.4 Hz) -> 0.025879
+  bin 4 (0.5 Hz) -> 0.000183
+---------------------------------------------------------
+Enviando 200 muestras de un tono de 0.30 Hz (amplitud 0.50) a Fs=20.0 Hz...
+[t=120095000] bin_idx=0 (f=0.1 Hz)  mag2 = 4325  (~0.065994 en punto flotante)
+[t=120135000] bin_idx=1 (f=0.2 Hz)  mag2 = 203  (~0.003098 en punto flotante)
+[t=120175000] bin_idx=2 (f=0.3 Hz)  mag2 = 164482422  (~2509.802582 en punto flotante)
+[t=120215000] bin_idx=3 (f=0.4 Hz)  mag2 = 1696  (~0.025879 en punto flotante)
+Todas las muestras enviadas, esperando resultados del bloque...
+[t=120255000] bin_idx=4 (f=0.5 Hz)  mag2 = 12  (~0.000183 en punto flotante)
+[t=120265000] === BLOQUE COMPLETO (N=200 muestras) ===
+---------------------------------------------------------
+Resumen final (deberia verse un pico en el bin de 0.3 Hz):
+  bin 0 (0.1 Hz) -> 0.065994
+  bin 1 (0.2 Hz) -> 0.003098
+  bin 2 (0.3 Hz) -> 2509.802582
+  bin 3 (0.4 Hz) -> 0.025879
+  bin 4 (0.5 Hz) -> 0.000183
+---------------------------------------------------------
+$finish called at time : 120355 ns : File "C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.srcs/sim_1/new/tb_goertzel_claude.sv" Line 211

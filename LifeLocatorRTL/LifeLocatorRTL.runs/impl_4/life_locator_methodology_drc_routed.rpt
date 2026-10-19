@@ -1,0 +1,285 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Fri Jul 31 02:18:04 2026
+| Host         : DESKTOP-GQT7BIQ running 64-bit major release  (build 9200)
+| Command      : report_methodology -file life_locator_methodology_drc_routed.rpt -pb life_locator_methodology_drc_routed.pb -rpx life_locator_methodology_drc_routed.rpx
+| Design       : life_locator
+| Device       : xc7a35ticsg324-1L
+| Speed File   : -1L
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max checks: <unlimited>
+             Checks found: 47
++-----------+------------------+---------------------------------------------+--------+
+| Rule      | Severity         | Description                                 | Checks |
++-----------+------------------+---------------------------------------------+--------+
+| TIMING-17 | Critical Warning | Non-clocked sequential cell                 | 20     |
+| LUTAR-1   | Warning          | LUT drives async reset alert                | 4      |
+| SYNTH-10  | Warning          | Wide multiplier                             | 16     |
+| TIMING-20 | Warning          | Non-clocked latch                           | 4      |
+| XDCB-5    | Warning          | Runtime inefficient way to find pin objects | 2      |
+| LATCH-1   | Advisory         | Existing latches in the design              | 1      |
++-----------+------------------+---------------------------------------------+--------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-17#1 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#2 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#3 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#4 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#5 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#6 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#7 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#8 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#9 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#10 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#11 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep_rep[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#12 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep_rep[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#13 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep_rep[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#14 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep_rep[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#15 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep_rep[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#16 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep_rep[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#17 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep_rep[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#18 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep_rep[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#19 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep_rep[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#20 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep_rep[9]/C is not reached by a timing clock
+Related violations: <none>
+
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_3_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gwrrd_rst_sync_stage[2].rrst_inst/ngwrdrst.grst.g7serrst.rd_rst_reg[2]_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_3_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.rd_rst_reg_reg[0]/PRE,
+dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_3_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.rd_rst_reg_reg[1]/PRE
+dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_3_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.rd_rst_reg_reg[2]/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#2 Warning
+LUT drives async reset alert  
+LUT cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_3_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gwrrd_rst_sync_stage[2].wrst_inst/ngwrdrst.grst.g7serrst.wr_rst_reg[2]_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_3_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.wr_rst_reg_reg[0]/PRE,
+dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_3_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.wr_rst_reg_reg[1]/PRE
+dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_3_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.wr_rst_reg_reg[2]/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#3 Warning
+LUT drives async reset alert  
+LUT cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_3_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gwrrd_rst_sync_stage[2].rrst_inst/ngwrdrst.grst.g7serrst.rd_rst_reg[2]_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_3_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.rd_rst_reg_reg[0]/PRE,
+dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_3_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.rd_rst_reg_reg[1]/PRE
+dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_3_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.rd_rst_reg_reg[2]/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#4 Warning
+LUT drives async reset alert  
+LUT cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_3_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gwrrd_rst_sync_stage[2].wrst_inst/ngwrdrst.grst.g7serrst.wr_rst_reg[2]_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_3_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.wr_rst_reg_reg[0]/PRE,
+dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_3_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.wr_rst_reg_reg[1]/PRE
+dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_3_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.wr_rst_reg_reg[2]/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+SYNTH-10#1 Warning
+Wide multiplier  
+Detected multiplier at Bpm/dft/cross_r0 of size 15x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#2 Warning
+Wide multiplier  
+Detected multiplier at Bpm/dft/cross_r0__0 of size 15x15, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#3 Warning
+Wide multiplier  
+Detected multiplier at Bpm/dft/cross_r0__1 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#4 Warning
+Wide multiplier  
+Detected multiplier at Bpm/dft/cross_r0__2 of size 18x15, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#5 Warning
+Wide multiplier  
+Detected multiplier at Bpm/dft/mag23 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#6 Warning
+Wide multiplier  
+Detected multiplier at Bpm/dft/mag23__0 of size 18x13, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#7 Warning
+Wide multiplier  
+Detected multiplier at Bpm/dft/mag23__1 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#8 Warning
+Wide multiplier  
+Detected multiplier at Bpm/dft/mag23__2 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#9 Warning
+Wide multiplier  
+Detected multiplier at Bpm/dft/p1_r0 of size 15x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#10 Warning
+Wide multiplier  
+Detected multiplier at Bpm/dft/p1_r0__0 of size 15x15, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#11 Warning
+Wide multiplier  
+Detected multiplier at Bpm/dft/p1_r0__1 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#12 Warning
+Wide multiplier  
+Detected multiplier at Bpm/dft/p1_r0__2 of size 18x15, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#13 Warning
+Wide multiplier  
+Detected multiplier at Bpm/dft/p2_r0 of size 15x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#14 Warning
+Wide multiplier  
+Detected multiplier at Bpm/dft/p2_r0__0 of size 15x15, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#15 Warning
+Wide multiplier  
+Detected multiplier at Bpm/dft/p2_r0__1 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#16 Warning
+Wide multiplier  
+Detected multiplier at Bpm/dft/p2_r0__2 of size 18x15, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch Bpm/o_bpm_reg[1] cannot be properly analyzed as its control pin Bpm/o_bpm_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch Bpm/o_bpm_reg[2] cannot be properly analyzed as its control pin Bpm/o_bpm_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch Bpm/o_bpm_reg[3] cannot be properly analyzed as its control pin Bpm/o_bpm_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch Bpm/o_bpm_reg[4] cannot be properly analyzed as its control pin Bpm/o_bpm_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+XDCB-5#1 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter {NAME =~ *ila_core_inst/u_trig/N_DDR_TC.N_DDR_TC_INST[*].U_TC/allx_typeA_match_detection.ltlib_v1_0_2_allx_typeA_inst/DUT/u_srl_drive/CLK}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '42' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: c:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.gen/sources_1/bd/ila/ip/ila_ila_0_0/ila_v6_2/constraints/ila.xdc (Line: 72)
+Related violations: <none>
+
+XDCB-5#2 Warning
+Runtime inefficient way to find pin objects  
+The option '-to : [get_pins -hierarchical -filter {NAME =~ *ila_core_inst/u_trig/N_DDR_TC.N_DDR_TC_INST[*].U_TC/yes_output_reg.dout_reg_reg/D}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '42' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: c:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.gen/sources_1/bd/ila/ip/ila_ila_0_0/ila_v6_2/constraints/ila.xdc (Line: 72)
+Related violations: <none>
+
+LATCH-1#1 Advisory
+Existing latches in the design  
+There are 4 latches found in the design. Inferred latches are often the result of HDL coding mistakes, such as incomplete if or case statements.
+Related violations: <none>
+
+

@@ -1,0 +1,7 @@
+Running: xsim.dir/tb_goertzel_band_analyzer_behav/xsimk.exe -simmode gui -wdb tb_goertzel_band_analyzer_behav.wdb -simrunnum 0 -socket 55957
+Design successfully loaded
+Design Loading Memory Usage: 26400 KB (Peak: 26400 KB)
+Design Loading CPU Usage: 1312 ms
+Simulation completed
+Simulation Memory Usage: 27900 KB (Peak: 27900 KB)
+Simulation CPU Usage: 1406 ms

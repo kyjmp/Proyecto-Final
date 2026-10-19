@@ -1,0 +1,617 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Fri Jul 31 00:50:22 2026
+| Host         : DESKTOP-GQT7BIQ running 64-bit major release  (build 9200)
+| Command      : report_methodology -file life_locator_methodology_drc_routed.rpt -pb life_locator_methodology_drc_routed.pb -rpx life_locator_methodology_drc_routed.rpx
+| Design       : life_locator
+| Device       : xc7a35ticsg324-1L
+| Speed File   : -1L
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max checks: <unlimited>
+             Checks found: 113
++-----------+------------------+---------------------------------------------+--------+
+| Rule      | Severity         | Description                                 | Checks |
++-----------+------------------+---------------------------------------------+--------+
+| TIMING-17 | Critical Warning | Non-clocked sequential cell                 | 20     |
+| LUTAR-1   | Warning          | LUT drives async reset alert                | 4      |
+| SYNTH-9   | Warning          | Small multiplier                            | 12     |
+| SYNTH-10  | Warning          | Wide multiplier                             | 16     |
+| TIMING-16 | Warning          | Large setup violation                       | 54     |
+| TIMING-20 | Warning          | Non-clocked latch                           | 4      |
+| XDCB-5    | Warning          | Runtime inefficient way to find pin objects | 2      |
+| LATCH-1   | Advisory         | Existing latches in the design              | 1      |
++-----------+------------------+---------------------------------------------+--------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-17#1 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#2 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#3 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#4 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#5 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#6 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#7 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#8 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#9 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#10 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#11 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep_rep[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#12 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep_rep[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#13 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep_rep[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#14 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep_rep[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#15 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep_rep[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#16 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep_rep[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#17 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep_rep[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#18 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep_rep[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#19 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep_rep[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#20 Critical Warning
+Non-clocked sequential cell  
+The clock pin Mem/counter_reg_rep_rep[9]/C is not reached by a timing clock
+Related violations: <none>
+
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_3_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gwrrd_rst_sync_stage[2].rrst_inst/ngwrdrst.grst.g7serrst.rd_rst_reg[2]_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_3_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.rd_rst_reg_reg[0]/PRE,
+dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_3_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.rd_rst_reg_reg[1]/PRE
+dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_3_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.rd_rst_reg_reg[2]/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#2 Warning
+LUT drives async reset alert  
+LUT cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_3_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gwrrd_rst_sync_stage[2].wrst_inst/ngwrdrst.grst.g7serrst.wr_rst_reg[2]_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_3_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.wr_rst_reg_reg[0]/PRE,
+dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_3_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.wr_rst_reg_reg[1]/PRE
+dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_3_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.wr_rst_reg_reg[2]/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#3 Warning
+LUT drives async reset alert  
+LUT cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_3_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gwrrd_rst_sync_stage[2].rrst_inst/ngwrdrst.grst.g7serrst.rd_rst_reg[2]_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_3_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.rd_rst_reg_reg[0]/PRE,
+dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_3_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.rd_rst_reg_reg[1]/PRE
+dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_3_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.rd_rst_reg_reg[2]/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#4 Warning
+LUT drives async reset alert  
+LUT cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_3_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gwrrd_rst_sync_stage[2].wrst_inst/ngwrdrst.grst.g7serrst.wr_rst_reg[2]_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_3_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.wr_rst_reg_reg[0]/PRE,
+dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_3_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.wr_rst_reg_reg[1]/PRE
+dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_3_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.wr_rst_reg_reg[2]/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+SYNTH-9#1 Warning
+Small multiplier  
+Detected multiplier at PasaBanda/o_os_data3__57_i_29 of size 19x6, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#2 Warning
+Small multiplier  
+Detected multiplier at PasaBanda/o_os_data3__57_i_34 of size 19x6, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#3 Warning
+Small multiplier  
+Detected multiplier at PasaBanda/o_os_data3__57_i_39 of size 19x6, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#4 Warning
+Small multiplier  
+Detected multiplier at PasaBanda/o_os_data3__57_i_44 of size 19x6, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#5 Warning
+Small multiplier  
+Detected multiplier at PasaBanda/o_os_data3__57_i_49 of size 19x6, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#6 Warning
+Small multiplier  
+Detected multiplier at PasaBanda/o_os_data3__57_i_59 of size 19x6, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#7 Warning
+Small multiplier  
+Detected multiplier at PasaBanda/o_os_data3__57_i_60 of size 19x6, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#8 Warning
+Small multiplier  
+Detected multiplier at PasaBanda/o_os_data3__57_i_62 of size 19x6, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#9 Warning
+Small multiplier  
+Detected multiplier at PasaBanda/o_os_data3__57_i_63 of size 19x6, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#10 Warning
+Small multiplier  
+Detected multiplier at PasaBanda/o_os_data3__57_i_64 of size 19x6, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#11 Warning
+Small multiplier  
+Detected multiplier at PasaBanda/o_os_data3__57_i_65 of size 19x6, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#12 Warning
+Small multiplier  
+Detected multiplier at PasaBanda/o_os_data3__57_i_86 of size 19x6, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-10#1 Warning
+Wide multiplier  
+Detected multiplier at Bpm/dft/cross_r0 of size 15x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#2 Warning
+Wide multiplier  
+Detected multiplier at Bpm/dft/cross_r0__0 of size 15x15, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#3 Warning
+Wide multiplier  
+Detected multiplier at Bpm/dft/cross_r0__1 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#4 Warning
+Wide multiplier  
+Detected multiplier at Bpm/dft/cross_r0__2 of size 18x15, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#5 Warning
+Wide multiplier  
+Detected multiplier at Bpm/dft/mag23 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#6 Warning
+Wide multiplier  
+Detected multiplier at Bpm/dft/mag23__0 of size 18x13, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#7 Warning
+Wide multiplier  
+Detected multiplier at Bpm/dft/mag23__1 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#8 Warning
+Wide multiplier  
+Detected multiplier at Bpm/dft/mag23__2 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#9 Warning
+Wide multiplier  
+Detected multiplier at Bpm/dft/p1_r0 of size 15x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#10 Warning
+Wide multiplier  
+Detected multiplier at Bpm/dft/p1_r0__0 of size 15x15, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#11 Warning
+Wide multiplier  
+Detected multiplier at Bpm/dft/p1_r0__1 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#12 Warning
+Wide multiplier  
+Detected multiplier at Bpm/dft/p1_r0__2 of size 18x15, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#13 Warning
+Wide multiplier  
+Detected multiplier at Bpm/dft/p2_r0 of size 15x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#14 Warning
+Wide multiplier  
+Detected multiplier at Bpm/dft/p2_r0__0 of size 15x15, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#15 Warning
+Wide multiplier  
+Detected multiplier at Bpm/dft/p2_r0__1 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#16 Warning
+Wide multiplier  
+Detected multiplier at Bpm/dft/p2_r0__2 of size 18x15, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+TIMING-16#1 Warning
+Large setup violation  
+There is a large setup violation of -95.546 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and Bpm/dft/x_reg_reg[17]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#2 Warning
+Large setup violation  
+There is a large setup violation of -95.699 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and u_ila/ila_0/inst/ila_core_inst/shifted_data_in_reg[7][35]_srl8/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#3 Warning
+Large setup violation  
+There is a large setup violation of -95.979 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and u_ila/ila_0/inst/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[1].U_M/allx_typeA_match_detection.ltlib_v1_0_2_allx_typeA_inst/probeDelay1_reg[17]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#4 Warning
+Large setup violation  
+There is a large setup violation of -96.182 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and u_ila/ila_0/inst/ila_core_inst/shifted_data_in_reg[7][25]_srl8_srlopt/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#5 Warning
+Large setup violation  
+There is a large setup violation of -96.435 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and u_ila/ila_0/inst/ila_core_inst/shifted_data_in_reg[7][33]_srl8_srlopt/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#6 Warning
+Large setup violation  
+There is a large setup violation of -96.552 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and Bpm/dft/x_reg_reg[5]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#7 Warning
+Large setup violation  
+There is a large setup violation of -96.564 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and Bpm/dft/x_reg_reg[9]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#8 Warning
+Large setup violation  
+There is a large setup violation of -96.586 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and Bpm/dft/x_reg_reg[11]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#9 Warning
+Large setup violation  
+There is a large setup violation of -96.596 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and u_ila/ila_0/inst/ila_core_inst/shifted_data_in_reg[7][30]_srl8_srlopt/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#10 Warning
+Large setup violation  
+There is a large setup violation of -96.673 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and Bpm/dft/x_reg_reg[14]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#11 Warning
+Large setup violation  
+There is a large setup violation of -96.726 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and Bpm/dft/x_reg_reg[16]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#12 Warning
+Large setup violation  
+There is a large setup violation of -96.763 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and u_ila/ila_0/inst/ila_core_inst/shifted_data_in_reg[7][22]_srl8_srlopt/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#13 Warning
+Large setup violation  
+There is a large setup violation of -96.840 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and Bpm/dft/x_reg_reg[15]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#14 Warning
+Large setup violation  
+There is a large setup violation of -96.841 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and u_ila/ila_0/inst/ila_core_inst/shifted_data_in_reg[7][31]_srl8/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#15 Warning
+Large setup violation  
+There is a large setup violation of -96.887 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and u_ila/ila_0/inst/ila_core_inst/shifted_data_in_reg[7][21]_srl8_srlopt/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#16 Warning
+Large setup violation  
+There is a large setup violation of -96.934 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and u_ila/ila_0/inst/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[1].U_M/allx_typeA_match_detection.ltlib_v1_0_2_allx_typeA_inst/probeDelay1_reg[7]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#17 Warning
+Large setup violation  
+There is a large setup violation of -96.982 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and u_ila/ila_0/inst/ila_core_inst/shifted_data_in_reg[7][29]_srl8_srlopt/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#18 Warning
+Large setup violation  
+There is a large setup violation of -97.005 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and Bpm/dft/x_reg_reg[2]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#19 Warning
+Large setup violation  
+There is a large setup violation of -97.007 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and u_ila/ila_0/inst/ila_core_inst/shifted_data_in_reg[7][19]_srl8_srlopt/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#20 Warning
+Large setup violation  
+There is a large setup violation of -97.009 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and Bpm/dft/x_reg_reg[12]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#21 Warning
+Large setup violation  
+There is a large setup violation of -97.028 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and Bpm/dft/x_reg_reg[13]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#22 Warning
+Large setup violation  
+There is a large setup violation of -97.030 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and u_ila/ila_0/inst/ila_core_inst/shifted_data_in_reg[7][23]_srl8_srlopt/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#23 Warning
+Large setup violation  
+There is a large setup violation of -97.045 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and u_ila/ila_0/inst/ila_core_inst/shifted_data_in_reg[7][27]_srl8/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#24 Warning
+Large setup violation  
+There is a large setup violation of -97.050 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and Bpm/dft/x_reg_reg[7]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#25 Warning
+Large setup violation  
+There is a large setup violation of -97.101 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and u_ila/ila_0/inst/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[1].U_M/allx_typeA_match_detection.ltlib_v1_0_2_allx_typeA_inst/probeDelay1_reg[3]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#26 Warning
+Large setup violation  
+There is a large setup violation of -97.110 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and u_ila/ila_0/inst/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[1].U_M/allx_typeA_match_detection.ltlib_v1_0_2_allx_typeA_inst/probeDelay1_reg[12]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#27 Warning
+Large setup violation  
+There is a large setup violation of -97.125 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and u_ila/ila_0/inst/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[1].U_M/allx_typeA_match_detection.ltlib_v1_0_2_allx_typeA_inst/probeDelay1_reg[15]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#28 Warning
+Large setup violation  
+There is a large setup violation of -97.135 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and u_ila/ila_0/inst/ila_core_inst/shifted_data_in_reg[7][24]_srl8/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#29 Warning
+Large setup violation  
+There is a large setup violation of -97.140 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and u_ila/ila_0/inst/ila_core_inst/shifted_data_in_reg[7][32]_srl8/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#30 Warning
+Large setup violation  
+There is a large setup violation of -97.148 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and Bpm/dft/x_reg_reg[3]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#31 Warning
+Large setup violation  
+There is a large setup violation of -97.161 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and Bpm/dft/x_reg_reg[10]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#32 Warning
+Large setup violation  
+There is a large setup violation of -97.163 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and u_ila/ila_0/inst/ila_core_inst/shifted_data_in_reg[7][18]_srl8_srlopt/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#33 Warning
+Large setup violation  
+There is a large setup violation of -97.185 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and u_ila/ila_0/inst/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[1].U_M/allx_typeA_match_detection.ltlib_v1_0_2_allx_typeA_inst/probeDelay1_reg[10]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#34 Warning
+Large setup violation  
+There is a large setup violation of -97.190 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and u_ila/ila_0/inst/ila_core_inst/shifted_data_in_reg[7][28]_srl8/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#35 Warning
+Large setup violation  
+There is a large setup violation of -97.202 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and u_ila/ila_0/inst/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[1].U_M/allx_typeA_match_detection.ltlib_v1_0_2_allx_typeA_inst/probeDelay1_reg[13]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#36 Warning
+Large setup violation  
+There is a large setup violation of -97.204 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and u_ila/ila_0/inst/ila_core_inst/shifted_data_in_reg[7][34]_srl8_srlopt/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#37 Warning
+Large setup violation  
+There is a large setup violation of -97.210 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and u_ila/ila_0/inst/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[1].U_M/allx_typeA_match_detection.ltlib_v1_0_2_allx_typeA_inst/probeDelay1_reg[5]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#38 Warning
+Large setup violation  
+There is a large setup violation of -97.218 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and Bpm/dft/x_reg_reg[4]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#39 Warning
+Large setup violation  
+There is a large setup violation of -97.224 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and u_ila/ila_0/inst/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[1].U_M/allx_typeA_match_detection.ltlib_v1_0_2_allx_typeA_inst/probeDelay1_reg[9]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#40 Warning
+Large setup violation  
+There is a large setup violation of -97.238 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and u_ila/ila_0/inst/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[1].U_M/allx_typeA_match_detection.ltlib_v1_0_2_allx_typeA_inst/probeDelay1_reg[14]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#41 Warning
+Large setup violation  
+There is a large setup violation of -97.242 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and Bpm/dft/x_reg_reg[1]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#42 Warning
+Large setup violation  
+There is a large setup violation of -97.265 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and Bpm/dft/x_reg_reg[8]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#43 Warning
+Large setup violation  
+There is a large setup violation of -97.269 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and Bpm/dft/x_reg_reg[6]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#44 Warning
+Large setup violation  
+There is a large setup violation of -97.273 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and u_ila/ila_0/inst/ila_core_inst/shifted_data_in_reg[7][26]_srl8_srlopt/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#45 Warning
+Large setup violation  
+There is a large setup violation of -97.295 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and u_ila/ila_0/inst/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[1].U_M/allx_typeA_match_detection.ltlib_v1_0_2_allx_typeA_inst/probeDelay1_reg[2]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#46 Warning
+Large setup violation  
+There is a large setup violation of -97.296 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and u_ila/ila_0/inst/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[1].U_M/allx_typeA_match_detection.ltlib_v1_0_2_allx_typeA_inst/probeDelay1_reg[1]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#47 Warning
+Large setup violation  
+There is a large setup violation of -97.308 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and u_ila/ila_0/inst/ila_core_inst/shifted_data_in_reg[7][20]_srl8/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#48 Warning
+Large setup violation  
+There is a large setup violation of -97.309 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and Bpm/dft/x_reg_reg[0]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#49 Warning
+Large setup violation  
+There is a large setup violation of -97.310 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and u_ila/ila_0/inst/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[1].U_M/allx_typeA_match_detection.ltlib_v1_0_2_allx_typeA_inst/probeDelay1_reg[4]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#50 Warning
+Large setup violation  
+There is a large setup violation of -97.345 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and u_ila/ila_0/inst/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[1].U_M/allx_typeA_match_detection.ltlib_v1_0_2_allx_typeA_inst/probeDelay1_reg[11]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#51 Warning
+Large setup violation  
+There is a large setup violation of -97.361 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and u_ila/ila_0/inst/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[1].U_M/allx_typeA_match_detection.ltlib_v1_0_2_allx_typeA_inst/probeDelay1_reg[6]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#52 Warning
+Large setup violation  
+There is a large setup violation of -97.366 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and u_ila/ila_0/inst/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[1].U_M/allx_typeA_match_detection.ltlib_v1_0_2_allx_typeA_inst/probeDelay1_reg[16]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#53 Warning
+Large setup violation  
+There is a large setup violation of -97.413 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and u_ila/ila_0/inst/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[1].U_M/allx_typeA_match_detection.ltlib_v1_0_2_allx_typeA_inst/probeDelay1_reg[8]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#54 Warning
+Large setup violation  
+There is a large setup violation of -97.472 ns between PasaBanda/prod[63]/CLK (clocked by sys_clk_pin) and u_ila/ila_0/inst/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[1].U_M/allx_typeA_match_detection.ltlib_v1_0_2_allx_typeA_inst/probeDelay1_reg[0]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch Bpm/o_bpm_reg[1] cannot be properly analyzed as its control pin Bpm/o_bpm_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch Bpm/o_bpm_reg[2] cannot be properly analyzed as its control pin Bpm/o_bpm_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch Bpm/o_bpm_reg[3] cannot be properly analyzed as its control pin Bpm/o_bpm_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch Bpm/o_bpm_reg[4] cannot be properly analyzed as its control pin Bpm/o_bpm_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+XDCB-5#1 Warning
+Runtime inefficient way to find pin objects  
+The option '-from : [get_pins -hierarchical -filter {NAME =~ *ila_core_inst/u_trig/N_DDR_TC.N_DDR_TC_INST[*].U_TC/allx_typeA_match_detection.ltlib_v1_0_2_allx_typeA_inst/DUT/u_srl_drive/CLK}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '42' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: c:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.gen/sources_1/bd/ila/ip/ila_ila_0_0/ila_v6_2/constraints/ila.xdc (Line: 72)
+Related violations: <none>
+
+XDCB-5#2 Warning
+Runtime inefficient way to find pin objects  
+The option '-to : [get_pins -hierarchical -filter {NAME =~ *ila_core_inst/u_trig/N_DDR_TC.N_DDR_TC_INST[*].U_TC/yes_output_reg.dout_reg_reg/D}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '42' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: c:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.gen/sources_1/bd/ila/ip/ila_ila_0_0/ila_v6_2/constraints/ila.xdc (Line: 72)
+Related violations: <none>
+
+LATCH-1#1 Advisory
+Existing latches in the design  
+There are 4 latches found in the design. Inferred latches are often the result of HDL coding mistakes, such as incomplete if or case statements.
+Related violations: <none>
+
+

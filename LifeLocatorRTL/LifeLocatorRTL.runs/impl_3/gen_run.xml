@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_3" LaunchPart="xc7a35ticsg324-1L" LaunchTime="1785469397">
+  <File Type="REPORTS-TCL" Name="life_locator_reports.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="life_locator_power_summary_routed.pb"/>
+  <File Type="BITSTR-MMI" Name="life_locator.mmi"/>
+  <File Type="OPT-DRC" Name="life_locator_drc_opted.rpt"/>
+  <File Type="BG-DRC" Name="life_locator.drc"/>
+  <File Type="ROUTE-STATUS-PB" Name="life_locator_route_status.pb"/>
+  <File Type="BG-BGN" Name="life_locator.bgn"/>
+  <File Type="PLACE-UTIL" Name="life_locator_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="life_locator_utilization_placed.pb"/>
+  <File Type="PLACE-IO" Name="life_locator_io_placed.rpt"/>
+  <File Type="BG-BIN" Name="life_locator.bin"/>
+  <File Type="PLACE-CTRL" Name="life_locator_control_sets_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="life_locator_power_routed.rpx"/>
+  <File Type="ROUTE-DCP" Name="life_locator_routed.dcp"/>
+  <File Type="BITSTR-MSK" Name="life_locator.msk"/>
+  <File Type="BITSTR-RBT" Name="life_locator.rbt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="life_locator_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="life_locator_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="life_locator_route_status.rpt"/>
+  <File Type="PA-TCL" Name="life_locator.tcl"/>
+  <File Type="ROUTE-PWR" Name="life_locator_power_routed.rpt"/>
+  <File Type="ROUTE-DRC" Name="life_locator_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="life_locator_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="life_locator_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="life_locator.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="life_locator_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="life_locator_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="life_locator.ltx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="life_locator_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-SIMILARITY" Name="life_locator_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="life_locator.vdi"/>
+  <File Type="ROUTE-CLK" Name="life_locator_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="life_locator_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="life_locator_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="life_locator_bus_skew_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="life_locator_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="life_locator_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="life_locator_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="life_locator_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="life_locator_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="life_locator.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="life_locator_bus_skew_postroute_physopted.pb"/>
+  <File Type="BITSTR-NKY" Name="life_locator.nky"/>
+  <File Type="BITSTR-BMM" Name="life_locator_bd.bmm"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-HWDEF" Name="life_locator.hwdef"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="life_locator_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="life_locator_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="life_locator_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMING-PB" Name="life_locator_timing_summary_routed.pb"/>
+  <File Type="OPT-DCP" Name="life_locator_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="life_locator_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="life_locator_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="life_locator_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="life_locator_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="life_locator_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="life_locator_postroute_physopt_bb.dcp"/>
+  <File Type="PDI-FILE" Name="life_locator.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="life_locator_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="life_locator_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="life_locator.rcfi"/>
+  <File Type="CFI_FILE" Name="life_locator.cfi"/>
+  <File Type="RNPI_FILE" Name="life_locator.rnpi"/>
+  <File Type="NPI_FILE" Name="life_locator.npi"/>
+  <File Type="RBD_FILE" Name="life_locator.rbd"/>
+  <File Type="ROUTE-RQS" Name="life_locator_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="life_locator_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Filtro_BP.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/SatTruncFP.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/filtro_clutter.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/top.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/signal_generator.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fir_mult.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mult_complejo.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/butterfly.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sdf.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fft_mdc_256.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/tb_fft_diag.sv">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mdc_stage.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fft_mdc_top.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pruebas.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/goertzel.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/generador_tick.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/ila/ila.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/vio/vio.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="life_locator"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../../Arty_Master_v2.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/life_locator.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="ila_ila_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="vio_vio_0_0"/>
+</GenRun>

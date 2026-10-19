@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_filtro_fir_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_filtro_fir" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="39.397675 us"></ZoomStartTime>
+      <ZoomEndTime time="55.639415 us"></ZoomEndTime>
+      <Cursor1Time time="9.720000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/tb_filtro_fir/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_filtro_fir/i_srst" type="logic">
+      <obj_property name="ElementShortName">i_srst</obj_property>
+      <obj_property name="ObjectShortName">i_srst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_filtro_fir/i_en" type="logic">
+      <obj_property name="ElementShortName">i_en</obj_property>
+      <obj_property name="ObjectShortName">i_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_filtro_fir/i_is_data" type="array">
+      <obj_property name="ElementShortName">i_is_data[17:0]</obj_property>
+      <obj_property name="ObjectShortName">i_is_data[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_filtro_fir/o_os_data" type="array">
+      <obj_property name="ElementShortName">o_os_data[17:0]</obj_property>
+      <obj_property name="ObjectShortName">o_os_data[17:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_filtro_fir/sample_idx" type="array">
+      <obj_property name="ElementShortName">sample_idx[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sample_idx[31:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_filtro_fir/fout" type="array">
+      <obj_property name="ElementShortName">fout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_filtro_fir/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_filtro_fir/t2" type="other">
+      <obj_property name="ElementShortName">t2</obj_property>
+      <obj_property name="ObjectShortName">t2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_filtro_fir/val2" type="other">
+      <obj_property name="ElementShortName">val2</obj_property>
+      <obj_property name="ObjectShortName">val2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_filtro_fir/NB_INPUT" type="array">
+      <obj_property name="ElementShortName">NB_INPUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NB_INPUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_filtro_fir/NBF_INPUT" type="array">
+      <obj_property name="ElementShortName">NBF_INPUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NBF_INPUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_filtro_fir/NB_OUTPUT" type="array">
+      <obj_property name="ElementShortName">NB_OUTPUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NB_OUTPUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_filtro_fir/NBF_OUTPUT" type="array">
+      <obj_property name="ElementShortName">NBF_OUTPUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NBF_OUTPUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_filtro_fir/NB_COEFF" type="array">
+      <obj_property name="ElementShortName">NB_COEFF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NB_COEFF[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_filtro_fir/NBF_COEFF" type="array">
+      <obj_property name="ElementShortName">NBF_COEFF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NBF_COEFF[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_filtro_fir/CLK_PERIOD" type="other">
+      <obj_property name="ElementShortName">CLK_PERIOD</obj_property>
+      <obj_property name="ObjectShortName">CLK_PERIOD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_filtro_fir/FS" type="other">
+      <obj_property name="ElementShortName">FS</obj_property>
+      <obj_property name="ObjectShortName">FS</obj_property>
+   </wvobject>
+</wave_config>

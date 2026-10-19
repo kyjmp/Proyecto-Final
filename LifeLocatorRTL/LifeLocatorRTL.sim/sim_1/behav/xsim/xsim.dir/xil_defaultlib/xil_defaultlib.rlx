@@ -1,0 +1,25 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:57
+C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.ip_user_files/bd/ila/ip/ila_ila_0_0/sim/ila_ila_0_0.v,1785474321,verilog,,C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.ip_user_files/bd/vio/ip/vio_vio_0_0/sim/vio_vio_0_0.v,,ila_ila_0_0,,uvm,,,,,,
+C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.ip_user_files/bd/ila/sim/ila.v,1785455809,verilog,,C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.ip_user_files/bd/vio/sim/vio.v,,ila,,uvm,,,,,,
+C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.ip_user_files/bd/vio/ip/vio_vio_0_0/sim/vio_vio_0_0.v,1785476021,verilog,,C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.srcs/sources_1/new/SatTruncFP.v,,vio_vio_0_0,,uvm,,,,,,
+C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.ip_user_files/bd/vio/sim/vio.v,1785466764,verilog,,,,vio,,uvm,,,,,,
+C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.srcs/sim_1/new/tb_Filtro_BP.v,1784087139,verilog,,,,tb_filtro_fir,,uvm,,,,,,
+C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.srcs/sim_1/new/tb_claude.sv,1785470770,systemVerilog,,,,tb_filtro_fir_1,,uvm,,,,,,
+C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.srcs/sim_1/new/tb_clutter.sv,1785086873,systemVerilog,,C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.srcs/sim_1/new/tb_claude.sv,,tb_clutter,,uvm,,,,,,
+C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.srcs/sim_1/new/tb_control_goertzel.sv,1785451649,systemVerilog,,,,tb_det_resp,,uvm,,,,,,
+C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.srcs/sim_1/new/tb_fft.sv,1785471670,systemVerilog,,,,tb_filtro_fir_2,,uvm,,,,,,
+C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.srcs/sim_1/new/tb_goertzel.v,1785434231,verilog,,,,tb_sliding_goertzel_sequential_q216,,uvm,,,,,,
+C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.srcs/sim_1/new/tb_goertzel_claude.sv,1785508656,systemVerilog,,C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.srcs/sim_1/new/tb_control_goertzel.sv,,tb_goertzel_band_analyzer,,uvm,,,,,,
+C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.srcs/sim_1/new/tb_pruebas.v,1785379788,verilog,,C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.srcs/sim_1/new/tb_goertzel.v,,fft256_tb,,uvm,,,,,,
+C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.srcs/sources_1/new/SatTruncFP.v,1600052640,verilog,,C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.srcs/sources_1/new/filtro_clutter.v,,SatTruncFP,,uvm,,,,,,
+C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.srcs/sources_1/new/fft_mdc_256.v,1785498190,verilog,,C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.srcs/sources_1/new/mdc_stage.v,,det_resp,,uvm,,,,,,
+C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.srcs/sources_1/new/filtro_clutter.v,1785505038,verilog,,C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.srcs/sources_1/new/top.v,,filtro_clutter,,uvm,,,,,,
+C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.srcs/sources_1/new/generador_tick.v,1785453919,verilog,,C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.ip_user_files/bd/ila/sim/ila.v,,tick_generator,,uvm,,,,,,
+C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.srcs/sources_1/new/goertzel.v,1785451235,verilog,,C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.srcs/sources_1/new/generador_tick.v,,goertzel_algorithm,,uvm,,,,,,
+C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.srcs/sources_1/new/mdc_stage.v,1785502181,verilog,,C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.srcs/sources_1/new/goertzel.v,,filtro_fir_mac,,uvm,,,,,,
+C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.srcs/sources_1/new/signal_generator.v,1785497580,verilog,,C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.srcs/sources_1/new/fft_mdc_256.v,,signal_generator,,uvm,,,,,,
+C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.srcs/sources_1/new/top.v,1785497374,verilog,,C:/Users/Manu y Cari/Desktop/Proyecto/Proyecto Final/LifeLocatorRTL/LifeLocatorRTL.srcs/sources_1/new/signal_generator.v,,life_locator,,uvm,,,,,,
