@@ -1,0 +1,83 @@
+
+# ==========================================
+# Xilinx Vivado - archivos temporales
+# ==========================================
+
+# Caché y datos internos de Vivado
+.Xil/
+**/.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+
+# Resultados de síntesis e implementación
+*.runs/
+
+# Resultados generados de IP y Block Design
+*.gen/
+
+# Resultados de simulación
+*.sim/
+xsim.dir/
+webtalk_*.jou
+webtalk_*.log
+
+# Archivos temporales del simulador
+*.wdb
+*.vcd
+*.vpd
+*.pb
+*.jou
+*.str
+*.backup.*
+*.tmp
+
+# Logs generados por Vivado
+vivado.log
+vivado.jou
+vivado_*.log
+vivado_*.jou
+*.log
+
+# Informes generados
+*.rpt
+*.dcp
+*.bit
+*.bin
+*.ltx
+*.mmi
+
+# Archivos de configuración local
+*.xml.backup
+*.swp
+*.swo
+*~
+
+# ==========================================
+# Sistema operativo y editores
+# ==========================================
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ==========================================
+# IMPORTANTE:
+# No ignorar los fuentes ni la configuración
+# necesaria para reconstruir el proyecto.
+# ==========================================
+
+!*.v
+!*.sv
+!*.vh
+!*.svh
+!*.vhd
+!*.vhdl
+!*.xdc
+!*.xci
+!*.bd
+!*.tcl
+!*.mem
+!*.coe
+!*.wcfg
