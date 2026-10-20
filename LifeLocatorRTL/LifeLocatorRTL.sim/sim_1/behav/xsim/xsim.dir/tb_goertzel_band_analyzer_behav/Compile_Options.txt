@@ -1,1 +1,0 @@
---incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "uvm" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "tb_goertzel_band_analyzer_behav" "xil_defaultlib.tb_goertzel_band_analyzer" "xil_defaultlib.glbl" -log "elaborate.log" 
